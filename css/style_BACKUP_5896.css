@@ -12,7 +12,7 @@
 
 .container {
 	background-image: url(pics\erik-jan-leusink-183677.jpg);
-
+=======
 .contentcolumn {
     text-align: center
 }
@@ -24,3 +24,5 @@
 
 .icontext {
     padding: 30px;
+>>>>>>> e4258ed3010bb78db0e8e0dde45a3a4903311f71
+}
