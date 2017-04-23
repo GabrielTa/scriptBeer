@@ -24,25 +24,63 @@
     padding: 30px;
 }
 
-<<<<<<< HEAD
 .h1 {
 	font-family: 'Roboto', bold 700;
 	font-size: 70px;
 	color: white;
 	text-shadow: 400px;
-	text-shadow: 10px 10px #white;
+	text-shadow: 10px 10px;
 }
 
 .h3 {
 	font-family: 'Roboto', bold 700;
 	font-size: 40px;
 	color:white;
-=======
+}
+
 .poptext {
     text-align: center;
     margin: 15% 0%;
     font-family: 'Amatic SC', cursive;
     font-size: 7em;
     color: white;
->>>>>>> 061b52783ce172102d747f2e7dadb159d8625d42
+
+}
+
+/* FOOTER CSS */
+
+.lastfooter {
+    background-color: #75C0C7;
+}
+
+.lastfooter .contentcolumn {
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 40px; 
+}
+
+#logocolumn {
+    text-align: center;
+}
+
+#menucolumn {
+    text-align: center;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+#beerlogo {
+    width: 100px;
+    height: 100px;
+}
+
+.nav > li > a {
+    color: white;
+    text-align: center;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  color: #F9DF34;
 }
