@@ -3,10 +3,16 @@
 }
 
 .beericons {
-    width: 50%;
-    height: 50%;
+    width: 35%;
+    height: 35%;
 }
 
 .icontext {
     padding: 30px;
 }
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
