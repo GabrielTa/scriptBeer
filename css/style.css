@@ -16,7 +16,9 @@
 
 
 .contentcolumn {
-    text-align: center
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px; 
 }
 
 .beericons {
