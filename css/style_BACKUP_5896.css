@@ -1,0 +1,28 @@
+<<<<<<< HEAD
+.row1 {
+	padding-top: 300px;
+	text-align: center;
+
+}
+
+.row2{
+	text-align: center;
+
+}
+
+.container {
+	background-image: url(pics\erik-jan-leusink-183677.jpg);
+=======
+.contentcolumn {
+    text-align: center
+}
+
+.beericons {
+    width: 50%;
+    height: 50%;
+}
+
+.icontext {
+    padding: 30px;
+>>>>>>> e4258ed3010bb78db0e8e0dde45a3a4903311f71
+}

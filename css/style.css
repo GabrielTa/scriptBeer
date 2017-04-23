@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+.row1 {
+	padding-top: 300px;
+	text-align: center;
+
+}
+
+.row2{
+	text-align: center;
+
+}
+
+.container {
+	background-image: url(pics\erik-jan-leusink-183677.jpg);
+
 .contentcolumn {
     text-align: center
 }
@@ -9,6 +24,7 @@
 
 .icontext {
     padding: 30px;
+<<<<<<< HEAD
 }
 
 .parallax-window {
@@ -16,3 +32,5 @@
     background: transparent;
 }
 
+=======
+>>>>>>> b8ab5c7c7d5ecf36e82ce4e65063edc41bfd07b5
