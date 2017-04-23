@@ -13,9 +13,19 @@
 }
 
 .beericons {
-    width: 50%;
-    height: 50%;
+    width: 35%;
+    height: 35%;
 }
 
 .icontext {
     padding: 30px;
+<<<<<<< HEAD
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+=======
+>>>>>>> b8ab5c7c7d5ecf36e82ce4e65063edc41bfd07b5
