@@ -15,7 +15,9 @@
 
 
 .contentcolumn {
-    text-align: center
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px; 
 }
 
 .beericons {
@@ -27,7 +29,3 @@
     padding: 30px;
 }
 
-.parallax-window {
-    min-height: 400px;
-    background: transparent;
-}
