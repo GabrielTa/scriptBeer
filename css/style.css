@@ -24,6 +24,7 @@
     padding: 30px;
 }
 
+<<<<<<< HEAD
 .h1 {
 	font-family: 'Roboto', bold 700;
 	font-size: 70px;
@@ -36,4 +37,12 @@
 	font-family: 'Roboto', bold 700;
 	font-size: 40px;
 	color:white;
+=======
+.poptext {
+    text-align: center;
+    margin: 15% 0%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 7em;
+    color: white;
+>>>>>>> 061b52783ce172102d747f2e7dadb159d8625d42
 }
