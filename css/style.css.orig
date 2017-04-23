@@ -12,17 +12,25 @@
 
 .container {
 	background-image: url(pics\erik-jan-leusink-183677.jpg);
-=======
+
 .contentcolumn {
     text-align: center
 }
 
 .beericons {
-    width: 50%;
-    height: 50%;
+    width: 35%;
+    height: 35%;
 }
 
 .icontext {
     padding: 30px;
->>>>>>> e4258ed3010bb78db0e8e0dde45a3a4903311f71
+<<<<<<< HEAD
 }
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+=======
+>>>>>>> b8ab5c7c7d5ecf36e82ce4e65063edc41bfd07b5

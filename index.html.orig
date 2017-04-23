@@ -3,9 +3,12 @@
 <head>
 
 <!-- STYLE SHEETS -->
-
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css.map">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css.map">
+
 
 	<title>scriptBeer</title>
 </head>
@@ -33,6 +36,15 @@
         </div><!--/.nav-collapse -->
       </div> <!--container-fluid -->
     </nav>
+<<<<<<< HEAD
+
+<!-- ----------- Content row with 3 columns ------------- --> 
+
+
+=======
+<<<<<<< HEAD
+
+
     														<!-- h1 and h2 landing page  -->
 
 
@@ -46,8 +58,14 @@
 </div>
 
 
-<!-- ----------- Content row with 3 columns ------------- --> 
 
+
+
+
+
+=======
+    
+>>>>>>> b8ab5c7c7d5ecf36e82ce4e65063edc41bfd07b5
     <div class="container" style="padding-top: 200px;">
       <div class="col-md-4 contentcolumn">
           <img src="icons/004-pint-of-beer.png" class="beericons"></br></img>
@@ -61,19 +79,19 @@
         <img src="icons/curved-arrow.png" class="beericons"></br></img>
         <p class="icontext lead">Distinctively impact turnkey relationships and enterprise-wide users. Appropriately customize proactive web services without highly.</p>
       </div>
+>>>>>>> e4258ed3010bb78db0e8e0dde45a3a4903311f71
     </div><!-- /.container -->
 
 <!-- -------------- Parallex bg part 2 ---------- -->
 
-    <div class="parallex-window">
+    <div class="parallex-window".
     </div>
 
 <!-- ----------  SCRIPTS ------------  -->
 
-
+<script src="js/bootstrap.js"></script>
 <script src="js/jquery.js"></script>
 <script src="js/parallax.js"></script>
-<script src="js/bootstrap.js"></script>
 <script src="js/script.js"></script>
 
 
