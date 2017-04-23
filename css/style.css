@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .row1 {
 	padding-top: 300px;
 	text-align: center;
@@ -6,6 +6,12 @@
 
 }
 
+<<<<<<< HEAD
+=======
+.container {
+	background-image: url(pics\erik-jan-leusink-183677.jpg);
+}
+>>>>>>> 2da9901e890cda49da182e0729ac4c09ccf94db0
 
 
 .contentcolumn {
@@ -13,19 +19,15 @@
 }
 
 .beericons {
-    width: 35%;
-    height: 35%;
+    width: 150px;
+    height: 150px;
 }
 
 .icontext {
     padding: 30px;
-<<<<<<< HEAD
 }
 
 .parallax-window {
     min-height: 400px;
     background: transparent;
 }
-
-=======
->>>>>>> b8ab5c7c7d5ecf36e82ce4e65063edc41bfd07b5
