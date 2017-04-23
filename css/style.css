@@ -2,16 +2,11 @@
 .row1 {
 	padding-top: 300px;
 	text-align: center;
-
-
 }
 
-<<<<<<< HEAD
-=======
-.container {
-	background-image: url(pics\erik-jan-leusink-183677.jpg);
+.row2 {
+	text-align: center;
 }
->>>>>>> 2da9901e890cda49da182e0729ac4c09ccf94db0
 
 
 .contentcolumn {
@@ -29,3 +24,16 @@
     padding: 30px;
 }
 
+.h1 {
+	font-family: 'Roboto', bold 700;
+	font-size: 70px;
+	color: white;
+	text-shadow: 400px;
+	text-shadow: 10px 10px #white;
+}
+
+.h3 {
+	font-family: 'Roboto', bold 700;
+	font-size: 40px;
+	color:white;
+}
