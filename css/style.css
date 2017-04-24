@@ -14,6 +14,7 @@
 .navstyle {
     background:#561303;
     color:white;
+    opacity: 0.5;
     padding: 8px 0px;
 }
 
@@ -73,7 +74,7 @@
 /* FOOTER CSS */
 
 .lastfooter {
-    background-color: #75C0C7;
+    background-color: #F7DF35;
     padding-bottom: 20px;
 }
 

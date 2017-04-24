@@ -11,9 +11,16 @@
 
 }
 
-.navbar-transparent {
-    background:transparent;
+.navstyle {
+    background:#561303;
     color:white;
+    opacity: 0.5;
+    padding: 8px 0px;
+}
+
+#nav-logo {
+    width: 60px;
+    height: 60px;
 }
 
 .row1 {												/*H1 header */
@@ -67,8 +74,8 @@
 /* FOOTER CSS */
 
 .lastfooter {
-    background-color: #75C0C7;
-    padding: 20px 0px;
+    background-color: #F7DF35;
+    padding-bottom: 20px;
 }
 
 .lastfooter .contentcolumn {
@@ -85,11 +92,6 @@
     text-align: center;
     padding: 0px 0px;
     margin: 0px 0px;
-}
-
-#beerlogo {
-    width: 100px;
-    height: 100px;
 }
 
 .nav > li > a {
