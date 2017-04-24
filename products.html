@@ -3,21 +3,82 @@
 <head>
 
 <!-- STYLE SHEETS -->
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" type="text/css" href="bootstrap.css">
-<link rel="stylesheet" type="text/css" href="bootstrap.css.map">
-<link rel="stylesheet" type="text/css" href="bootstrap-theme.css">
-<link rel="stylesheet" type="text/css" href="bootstrap-theme.css.map">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link type="text/css" rel="stylesheet" media="all" href="style.css" />
+<!-- FONTS GO IN THE BOTTOM -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 
-<!-- JAVA SCRIPTS -->
 
-<script type="text/javascript" src="bootstrap.js"></script>
-<script type="text/javascript" src="npm.js"></script>
-<script type="text/javascript" src="script.js"></script>
 
 	<title>scriptBeer</title>
 </head>
 <body>
+
+
+  <nav class="navbar navbar-fixed-top navstyle">			<!-- Nav bar above container -->
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-left"><img id="nav-logo" src="images/beerjs.png"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li class="navfont"><a href="#">Home</a></li>
+            <li class="navfont"><a href="#about">About</a></li>
+            <li class="navfont"><a href="#contact">Products</a></li>
+            <li class="navfont"><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div> <!--container-fluid -->
+    </nav>
+    														<!-- h1 and h2 landing page  -->
+
+
+<div class="container" style="padding-top: 100px; padding-bottom: 60px;">
+	<div class="row">
+		<div class="col-md-6">
+		</div>
+		<div class="col-md-6">
+		</div>
+	</div> 
+</div>
+
+
+
+<!-- ----------- Footer ------------- --> 
+
+    <div class="container-fluid lastfooter">
+      <div class="row">
+      <div class="col-md-5">
+        <p><br></br>All beers reserved by scriptBeer.</p>
+      </div>
+      <div class="col-md-4">
+        <ul class="nav nav-justified"  id="menucolumn">
+          <li role="navigation"><a class="active"><a href="#">Home</a></li>
+          <li role="navigation"><a href="#">About</a></li>
+          <li role="navigation"><a href="#">Products</a></li>
+        </ul>
+      </div>
+      <div>
+    </div>
+
+
+<!-- ----------  SCRIPTS ------------  -->
+
+
+<script src="js/jquery.js"></script>
+<script src="js/parallax.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+
+
 
 </body>
 </html>
