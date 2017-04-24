@@ -1,23 +1,95 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-<!-- STYLE SHEETS -->
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" type="text/css" href="bootstrap.css">
-<link rel="stylesheet" type="text/css" href="bootstrap.css.map">
-<link rel="stylesheet" type="text/css" href="bootstrap-theme.css">
-<link rel="stylesheet" type="text/css" href="bootstrap-theme.css.map">
-
-<!-- JAVA SCRIPTS -->
-
-<script type="text/javascript" src="bootstrap.js"></script>
-<script type="text/javascript" src="npm.js"></script>
-<script type="text/javascript" src="script.js"></script>
+	<!-- STYLE SHEETS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link type="text/css" rel="stylesheet" media="all" href="style.css" />
+	<!-- FONTS GO IN THE BOTTOM -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 
 	<title>scriptBeer</title>
+
 </head>
+
 <body>
 
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<!-- Nav bar above container -->
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+				    aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+				<a class="navbar-brand" href="#">scriptBeer</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="navfont"><a href="#">Home</a></li>
+					<li class="navfont"><a href="#about">About</a></li>
+					<li class="navfont"><a href="#contact">Products</a></li>
+					<li class="navfont"><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+		<!--container-fluid -->
+	</nav>
+
+	<!-- ----------- Content ------------- -->
+
+	<div class="container" style="padding-top: 150px">
+		<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+			<h2>We live beer</h2>
+			<p>Intrinsicly strategize synergistic expertise whereas value-added meta-services. Assertively coordinate resource-leveling
+				mindshare and multimedia based supply chains. Efficiently evolve highly efficient core competencies whereas multifunctional
+				services. Progressively reconceptualize cooperative data vis-a-vis prospective niche markets. Holisticly maximize distinctive
+				methodologies for ethical initiatives. Assertively transform leveraged methods of empowerment through extensible channels.
+				Enthusiastically supply cross functional e-business without visionary materials. Assertively syndicate front-end collaboration
+				and idea-sharing via strategic solutions. Seamlessly reconceptualize best-of-breed results and process-centric convergence.
+				Enthusiastically coordinate virtual models after parallel deliverables. Credibly leverage other's efficient users vis-a-vis
+				backward-compatible web services. Progressively empower intuitive vortals after tactical internal or "organic" sources.
+				Compellingly deliver viral ROI rather than maintainable manufactured products. Rapidiously initiate flexible results
+				vis-a-vis turnkey supply chains. Objectively innovate ubiquitous e-tailers vis-a-vis.</p>
+		</div>
+		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+		</div>
+	</div>
+
+	<!-- ----------- Footer ------------- -->
+	
+	<div class="container-fluid lastfooter">
+		<div class="col-md-12 contentcolumn">
+			<ul class="nav nav-justified" id="menucolumn">
+				<li role="navigation"><a class="active"><a href="#">Home</a></li>
+				<li role="navigation"><a href="#">About</a></li>
+				<li role="navigation"><a href="#">Products</a></li>
+			</ul>
+		</div>
+		<div class="col-md-12 contentcolumn" id="logocolumn">
+			<img id="beerlogo" src="images/beerjs.png">All rights reserved by scriptBeer.</img>
+		</div>
+	</div>
+	</div>
+	<!-- /.container -->
+
+	<!-- ----------  SCRIPTS ------------  -->
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/script.js"></script>
+
+
+
 </body>
+
 </html>
