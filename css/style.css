@@ -3,16 +3,15 @@
 }
 
 .navfont {
-	font-family: 'Roboto', bold 700;
-	font-size: 20px;
-	
+	font-family: 'Quicksand';
+    font-size: 1.3em;
 
 }
 
 .navstyle {
     background:#561303;
     color:white;
-    opacity: 0.5;
+    opacity: 1 ;
     padding: 8px 0px;
 }
 
@@ -49,22 +48,23 @@
 }
 
 .h1 {
-	font-family: 'Roboto', bold 700;				/*Organically Brewed Beer*/
-	font-size: 70px;
+	font-family: 'Ranga', cursive;				/*Organically Brewed Beer*/
+	font-size: 6em;
 	color: white;
+    
 }
 
 .h3 {
-	font-family: 'Roboto', bold 700;				/*Only from the Freshest ingridients*/
-	font-size: 40px;
+	font-family: 'Quicksand';			/*Only from the Freshest ingridients*/
+	font-size: 30px;
 	color:white;
 }
 
 .poptext {
     text-align: center;
     margin: 15% 0%;
-    font-family: 'Amatic SC', cursive;				/*Damn that looks good */
-    font-size: 7em;
+    font-family: 'Ranga', cursive;				/*Damn that looks good */
+    font-size: 5em;
     color: white;
 
 }
@@ -72,14 +72,14 @@
 /* FOOTER CSS */
 
 .lastfooter {
-    background-color: #F7DF35;
-    padding-bottom: 20px;
+    background-color: white;
+    padding-bottom: 10px;
 }
 
 .lastfooter .contentcolumn {
-    text-align: right;
+    text-align: center;
     margin-top: 0px;
-    margin-bottom: 40px; 
+    margin-bottom: 20px; 
 }
 
 #logocolumn {
@@ -97,10 +97,15 @@
     text-align: center;
 }
 
+.nav-justified > li > a {
+    color: black;
+    text-align: center;
+}
+
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  color: silver;
+  color: #F9DF34;
 }
 
 /* CSS for G map */
