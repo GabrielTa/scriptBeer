@@ -102,7 +102,7 @@
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  color: #F9DF34;
+  color: silver;
 }
 
 /* CSS for G map */

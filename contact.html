@@ -1,90 +1,113 @@
-
-
 <!DOCTYPE html>
+
 <html>
+
 <head>
 
-<!-- STYLE SHEETS -->
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link type="text/css" rel="stylesheet" media="all" href="style.css" />
-<!-- FONTS GO IN THE BOTTOM -->
-<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+	<!-- STYLE SHEETS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link type="text/css" rel="stylesheet" media="all" href="style.css" />
+	<!-- FONTS GO IN THE BOTTOM -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 
 
 
 	<title>scriptBeer</title>
 </head>
+
 <body>
 
 
-  <nav class="navbar navbar-fixed-top navstyle">			<!-- Nav bar above container -->
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	<nav class="navbar navbar-fixed-top navstyle">
+		<!-- Nav bar above container -->
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+				    aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="#" class="navbar-left"><img id="nav-logo" src="images/beerjs.png"></a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse navbar-right">
-          <ul class="nav navbar-nav">
-            <li class="navfont"><a href="#">Home</a></li>
-            <li class="navfont"><a href="#about">About</a></li>
-            <li class="navfont"><a href="#contact">Products</a></li>
-            <li class="navfont"><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div> <!--container-fluid -->
-    </nav>
-    														<!-- h1 and h2 landing page  -->
-
-
-<div class="container" style="padding-top: 100px; padding-bottom: 60px;">
-	<div class="row">
-		<div class="col-md-6">
-			<h2>Toss us an email, we won't bite.<hr></h2>
-
+				<a href="#" class="navbar-left"><img id="nav-logo" src="images/beerjs.png"></a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse navbar-right">
+				<ul class="nav navbar-nav">
+					<li class="navfont"><a href="#">Home</a></li>
+					<li class="navfont"><a href="#about">About</a></li>
+					<li class="navfont"><a href="#contact">Products</a></li>
+					<li class="navfont"><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
 		</div>
-		<div class="col-md-6" style="padding-top: 100px;">
-			<div id="map"></div>
+		<!--container-fluid -->
+	</nav>
+	<!-- h1 and h2 landing page  -->
+
+
+	<div class="container" style="padding-top: 80px; padding-bottom: 30px; padding-right: 50px;">
+		<div class="row">
+			<div class="col-md-6">
+				<h2>Toss us an email, we won't bite.
+					<hr>
+				</h2>
+				<form class="form-horizontal">
+					<div class="form-group">
+						<label for="exampleInputName2">Name</label>
+						<input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+					</div>
+					<div class="form-group">
+						<label for="exampleInputEmail2">Email</label>
+						<input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+					</div>
+					<div class="form-group ">
+						<label for="exampleInputText">Your Message</label>
+						<textarea class="form-control" placeholder="Description"></textarea>
+					</div>
+					<button type="submit" class="btn btn-default">Send Message</button>
+				</form>
+			</div>
+			<div class="col-md-6" style="padding-top: 100px;">
+				<div id="map" style="margin-left: 20px;"></div>
+				<p class="lead" style="margin-left: 20px;"><br>John M. Keynesplein 12-46<br> 1066 EP Amsterdam</p>
+			</div>
 		</div>
-	</div> 
-</div>
+	</div>
 
 
 
-<!-- ----------- Footer ------------- --> 
+	<!-- ----------- Footer ------------- -->
 
-    <div class="container-fluid lastfooter">
-      <div class="row">
-      <div class="col-md-5">
-        <p><br></br>All beers reserved by scriptBeer.</p>
-      </div>
-      <div class="col-md-4">
-        <ul class="nav nav-justified"  id="menucolumn">
-          <li role="navigation"><a class="active"><a href="#">Home</a></li>
-          <li role="navigation"><a href="#">About</a></li>
-          <li role="navigation"><a href="#">Products</a></li>
-        </ul>
-      </div>
-      <div>
-    </div>
-
-
-<!-- ----------  SCRIPTS ------------  -->
+	<div class="container-fluid lastfooter">
+		<div class="row">
+			<div class="col-md-5">
+				<p><br></br>All beers reserved by scriptBeer.</p>
+			</div>
+			<div class="col-md-4">
+				<ul class="nav nav-justified" id="menucolumn">
+					<li role="navigation"><a class="active"><a href="#">Home</a></li>
+					<li role="navigation"><a href="#">About</a></li>
+					<li role="navigation"><a href="#">Products</a></li>
+				</ul>
+			</div>
+			<div>
+			</div>
 
 
-<script src="js/jquery.js"></script>
-<script src="js/parallax.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/script.js"></script>
- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXR59qh8sjgOf1LRgpZG7ULoLLMBbNz3A&callback=initMap"></script>
+			<!-- ----------  SCRIPTS ------------  -->
+
+
+			<script src="js/jquery.js"></script>
+			<script src="js/parallax.js"></script>
+			<script src="js/bootstrap.js"></script>
+			<script src="js/script.js"></script>
+			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXR59qh8sjgOf1LRgpZG7ULoLLMBbNz3A&callback=initMap"></script>
 
 
 
 </body>
+
 </html>
